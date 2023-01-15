@@ -31,3 +31,5 @@ graph = graphviz.Source(dot_data)
 graph.render("iris")
 
 graph.view()
+
+print(iris.target_names[clf.predict([[5, 3, 1, 0.3]])])

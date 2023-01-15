@@ -60,3 +60,5 @@ plt.scatter(X_test[(y_test == 1) & (y_pred == 0), 0],
 plt.scatter(X_test[(y_test == 0) & (y_pred == 1), 0],
             X_test[(y_test == 0) & (y_pred == 1), 1], c='orange')
 plt.show()
+
+print(mlp.predict([[-4, 5]]))
