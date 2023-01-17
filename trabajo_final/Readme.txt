@@ -1,0 +1,13 @@
+- Raiz
+    - main.ipynb (Desarrollo de la solucion OCR en formato Jupyter Notebook)
+    - main.py (Desarrollo de la solucion OCR en formato Python)
+    - TFA.pdf (Documento que documenta la solucion enteramente)
+    - res (directorio output de la solucion)
+        - lectura_imagen.txt (Archivo de texto con la lectura del texto de las imagenes)
+        - qr (directorio con los codigos QR obtenidos)ç
+        - faces (directorio con las imagenes con rostros detectadas)
+        - images (directorio con las imagenes detectadas)
+    - data (directorio que contiene imagenes de prueba)
+        - kernels (directorio que contiene kernels para deteccion de rostros y ojos)
+            - haarcascade_eye.xml (kernel para deteccion de ojos)
+            - haarcascade_frontalface_default.xml (kernel para deteccion de rostros)
